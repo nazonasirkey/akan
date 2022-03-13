@@ -32,3 +32,8 @@ header{
  #month{
     margin: 20px;
  }
+  
+ #btn{
+     margin: 5px;
+     padding: 1px
+ }
