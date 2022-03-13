@@ -7,7 +7,7 @@
     cc = year.substring(0,2);
     yy = year.substring(2,4);
     
-    var genderInput = document.querySelector('inputs[name="gender"]:checked').value;
+    var genderInput = document.querySelector('input[name="gender"]:checked').value;
     var weekDay = math.floor( ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd ) % 7
 
     const days = ["monday","tuesday","wednesday","thursday","friday","saturday","sunday"]
